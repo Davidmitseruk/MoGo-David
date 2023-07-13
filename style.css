@@ -1,0 +1,79 @@
+:root{
+    --logo-color:#95E1D3;
+    --line-color: #F38181;
+    --name-color:#333;
+    --text-color:#B6B6B6;
+}
+body{
+    font-family: 'Montserrat'sans-serif;
+    margin-left: 360px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-right: 360px;
+}
+.logo{
+    color: var(--logo-color);
+}
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--line-color);
+    border-radius: 20px;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    color: var(--logo-color);
+}
+.nav:hover,
+.nav:focus{
+    color: var(--line-color);
+}
+.photography{
+    color:var(--name-color);
+}
+.Amazing-text{
+    color: var(--text-color);
+    font-family:'Roboto'sans-serif;
+}
+.cool-shrift{
+    color: var(--name-color);
+    font-family: 'Kaushan+Script'sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.AMAZING-SERVICES{
+    color:var(--name-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+.button{
+    border: none;
+    background-color: var(--logo-color);
+    color: #fff;
+    padding: 11px 38px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:#92cdc1;
+}
+.input{
+    width: 220px;
+    height: 33px;
+    border: 1px solid var(--text-color);
+}
+.man-name{
+    color: var(--name-color);
+    font-size: 14px;
+    font-weight: 400;
+   text-transform: uppercase;
+}
+.man-job{
+    color: #B6B6B6;
+    font-family: 'Roboto'sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+}
