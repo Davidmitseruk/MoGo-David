@@ -64,6 +64,11 @@ ul{
     width: 220px;
     height: 33px;
     border: 1px solid var(--text-color);
+    color: #B6B6B6;
+    font-family: 'Roboto'sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
 }
 .man-name{
     color: var(--name-color);
