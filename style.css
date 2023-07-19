@@ -24,11 +24,6 @@ body{
     background-color: var(--line-color);
     border-radius: 20px;
 }
-ul,
-a{
-    list-style: none;
-    text-decoration: none;
-}
 .header-list{
     color: var(--logo-color);
     font-size: 14px;
