@@ -13,7 +13,19 @@ body{
     padding-left: 15px ;
     padding-right: 15px ;
     margin: 0 auto;
-    border: 2px solid red;
+}
+header{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    gap: 55px;
 }
 .header{
     margin: 0 auto;
@@ -126,5 +138,9 @@ p{
 .footer-link{
     color: var(--line-color);
     font-size: 14px;
+}
+.hero-item{
+    width: 328px;
+    display: flex;
 }
 
